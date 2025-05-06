@@ -1,0 +1,15 @@
+# Extract files from the device to baseline snapshot
+
+python3 scripts/dev_entry.py extract --device 001 --dir /sdcard/DCIM
+
+# Make a second snapshot after tampering has been suspected
+
+python3 scripts/dev_entry.py extract --device 001 --dir /sdcard/DCIM
+
+# Compare the two snapshots
+
+python3 scripts/dev_entry.py compare --device 001
+
+# Generate reports
+
+python3 scripts/dev_entry.py report --device 001 --format csv txt
