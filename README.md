@@ -1,6 +1,6 @@
-# FileChecker
+# Thesis on Mobile Device File Integrity Checkers
 
-**FileChecker** is a CLI-based Android integrity and tamper detection tool built for digital forensic investigations. It automates snapshot extraction from Android devices over ADB, compares forensically hashed files, and generates structured forensic reports.
+This thesis is a CLI-based Android integrity and tamper detection tool built for digital forensic investigations. It automates snapshot extraction from Android devices over ADB, compares forensically hashed files, and generates structured forensic reports.
 
 ---
 
