@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
 # IDE/editor files
 .vscode/
@@ -14,6 +15,5 @@ __pycache__/
 
 # Forensic data
 device_snapshots/*
-hashes/*.json
-reports/*.txt
-reports/*.csv
+hashes/
+reports/
